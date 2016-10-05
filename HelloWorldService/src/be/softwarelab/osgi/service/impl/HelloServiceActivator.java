@@ -18,6 +18,7 @@ public class HelloServiceActivator implements BundleActivator {
 	 * BundleContext)
 	 */
 	public void start(BundleContext context) throws Exception {
+		System.out.println("HelloService: START");
 		HelloServiceFactory helloServiceFactory = new HelloServiceFactory();
 		helloServiceRegistration = context.registerService(HelloService.class.getName(), helloServiceFactory, null);
 	}
@@ -29,6 +30,7 @@ public class HelloServiceActivator implements BundleActivator {
 	 * org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
 	 */
 	public void stop(BundleContext context) throws Exception {
+		System.out.println("HelloService: STOP");
 		helloServiceRegistration.unregister();
 	}
 
