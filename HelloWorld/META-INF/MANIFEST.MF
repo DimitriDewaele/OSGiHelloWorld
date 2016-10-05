@@ -3,7 +3,10 @@ Bundle-ManifestVersion: 2
 Bundle-Name: HelloWorld plugin
 Bundle-SymbolicName: be.softwarelab.osgi.HelloWorld
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: be.softwarelab.osgi.Activator
+Bundle-Activator: be.softwarelab.osgi.world.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Import-Package: org.osgi.util.tracker,be.softwarelab.osgi.service,org.osgi.framework;version="1.3.0"
+Import-Package: be.softwarelab.osgi.hello.service,
+ be.softwarelab.osgi.stock.service,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker
 Bundle-ActivationPolicy: lazy

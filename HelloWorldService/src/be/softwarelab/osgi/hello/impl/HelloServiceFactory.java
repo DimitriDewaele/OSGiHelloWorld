@@ -1,10 +1,10 @@
-package be.softwarelab.osgi.service;
+package be.softwarelab.osgi.hello.impl;
 
 import org.osgi.framework.Bundle;
 import org.osgi.framework.ServiceFactory;
 import org.osgi.framework.ServiceRegistration;
 
-import be.softwarelab.osgi.service.impl.HelloServiceImpl;
+import be.softwarelab.osgi.hello.service.HelloService;
 
 public class HelloServiceFactory implements ServiceFactory{
 	
