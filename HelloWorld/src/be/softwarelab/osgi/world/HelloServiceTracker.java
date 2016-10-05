@@ -1,10 +1,10 @@
-package be.softwarelab.osgi;
+package be.softwarelab.osgi.world;
 
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceReference;
 import org.osgi.util.tracker.ServiceTracker;
 
-import be.softwarelab.osgi.service.HelloService;
+import be.softwarelab.osgi.hello.service.HelloService;
 
 public class HelloServiceTracker extends ServiceTracker {
 	

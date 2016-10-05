@@ -1,4 +1,4 @@
-package be.softwarelab.osgi.service;
+package be.softwarelab.osgi.hello.service;
 
 public interface HelloService {
 

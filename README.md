@@ -9,4 +9,27 @@ Reference document for OSGI at JavaWorld.com - Hello World example.
 ## Bundles ##
 
 * HelloWorld
-* HelloWorldService
+* HelloWorldService: Will be imported by HellWorld
+
+## Starting Up ##
+
+Eclipse >> Windows >> Preferences >> Plug-in Development >> Target Platform:
+
+You need an target platform.
+
+Eclipse >> Run >> Run Configurations >> OSGI Framework:
+
+Create a new framework - or open your already existing one.
+
+Click Run to start the OSGI container. Eclipse will open the container in the console window.
+
+## OSGi console
+
+Commands:
+
+* ss: Displays list of bundles
+* start <bundleid>
+* stop <bundleid>
+* update <bundleid>
+* install <bundleurl>
+* uninstall <bundleid>
