@@ -9,7 +9,8 @@ Reference document for OSGI at JavaWorld.com - Hello World example.
 ## Bundles ##
 
 * HelloWorld
-* HelloWorldService: Will be imported by HellWorld
+* HelloService: Will be imported by HellWorld
+* StockService: idem
 
 ## Starting Up ##
 
@@ -22,6 +23,13 @@ Eclipse >> Run >> Run Configurations >> OSGI Framework:
 Create a new framework - or open your already existing one.
 
 Click Run to start the OSGI container. Eclipse will open the container in the console window.
+
+When problems occur:
+
+ * Use the OSGi console:
+ * ss: display all bundles and look at pottential problems.
+ * start xxx: try to start bundles that are not active.
+ * Also try to remove a OSGi framework and create a new again. 
 
 ## OSGi console
 

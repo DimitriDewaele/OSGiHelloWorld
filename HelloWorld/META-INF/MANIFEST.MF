@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: HelloWorld plugin
-Bundle-SymbolicName: be.softwarelab.osgi.HelloWorld
+Bundle-SymbolicName: be.softwarelab.osgi.world.HelloWorld
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: be.softwarelab.osgi.world.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7

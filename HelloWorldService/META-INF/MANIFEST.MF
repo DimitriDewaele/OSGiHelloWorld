@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: HelloService Plug-in
-Bundle-SymbolicName: be.softwarelab.osgi.HelloService
+Bundle-SymbolicName: be.softwarelab.osgi.hello.HelloService
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: be.softwarelab.osgi.hello.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
